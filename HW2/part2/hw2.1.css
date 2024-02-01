@@ -1,0 +1,21 @@
+.wrap{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 300ms;
+}
+
+.red:hover{
+    border-radius: 50px;
+    background-color: #00f;
+    transition: 200ms;
+
+}
